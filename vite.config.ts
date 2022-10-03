@@ -39,5 +39,8 @@ export default defineConfig({
         enabled: true
       }
     })
-  ]
+  ],
+  server: {
+    host: '0.0.0.0'
+  }
 })
